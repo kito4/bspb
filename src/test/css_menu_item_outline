@@ -1,0 +1,18 @@
+.css-qoez2h {
+    transition-property: var(--chakra-transition-property-common);
+    transition-duration: var(--chakra-transition-duration-fast);
+    transition-timing-function: var(--chakra-transition-easing-ease-out);
+    cursor: pointer;
+    text-decoration: none;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    height: var(--chakra-sizes-link-sm);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: var(--chakra-fontSizes-xs);
+    font-weight: var(--chakra-fontWeights-bold);
+    line-height: var(--chakra-lineHeights-xs);
+    letter-spacing: 0px;
+    color: var(--chakra-colors-text-light-primary);
