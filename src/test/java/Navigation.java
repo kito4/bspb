@@ -13,7 +13,6 @@ public class Navigation extends BaseTest{
         NavigationPage navigationPage = new NavigationPage(driver);
         for (String item : NavigationPage.MENU_ITEMS) {
             navigationPage.open();
-            driver.manage().window().fullscreen();
             navigationPage.clickMenuItem(item);
             //System.out.println(item); debug
             String actualColor = navigationPage.getMenuItemColor(item);
